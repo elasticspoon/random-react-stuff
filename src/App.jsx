@@ -3,6 +3,7 @@ import { Nav } from "./Nav";
 import { Body } from "./Body";
 import { Footer } from "./Footer";
 import { Sample } from "./Sample";
+import { AnimalsList } from "./AnimalsList";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Nav />
         <Body />
         <Sample />
+        <AnimalsList />
         <Footer />
       </div>
     </>
