@@ -2,8 +2,9 @@ import "./App.css";
 import { Nav } from "./Nav";
 import { Body } from "./Body";
 import { Footer } from "./Footer";
-import { Sample } from "./Sample";
-import { AnimalsList } from "./AnimalsList";
+// import { Sample } from "./Sample";
+// import { AnimalsList } from "./AnimalsList";
+import { Person } from "./Person";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <div className="container">
         <Nav />
         <Body />
-        <Sample />
-        <AnimalsList />
+        {/* <Sample /> */}
+        {/* <AnimalsList /> */}
+        <Person />
         <Footer />
       </div>
     </>
